@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Muhammad Abdullah Abid',
-  domain: 'mabdullahabid.com',
+  domain: 'abd.dev',
   author: 'Muhammad Abdullah Abid',
 
   // open graph metadata (optional)
