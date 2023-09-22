@@ -28,6 +28,8 @@ import {
   posthogId
 } from '@/lib/config'
 
+import { BubbleChat } from 'flowise-embed-react'
+
 if (!isServer) {
   bootstrap()
 }
@@ -61,5 +63,13 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+      <BubbleChat 
+        chatflowid="62667800-5444-4293-9619-45abe310c6b1"
+        apiHost="https://flowise.autonomoustech.io"
+      />
+    </>
+  );
 }
