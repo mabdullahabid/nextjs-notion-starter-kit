@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Muhammad Abdullah Abid',
+  name: 'Abdullah Abid',
   domain: 'abd.dev',
-  author: 'Muhammad Abdullah Abid',
+  author: 'Abdullah Abid',
 
   // open graph metadata (optional)
-  description: 'Personal site of Muhammad Abdullah Abid',
+  description: 'Personal site of Abdullah Abid',
 
   // social usernames (optional)
   twitter: 'mabdullahabid_',
