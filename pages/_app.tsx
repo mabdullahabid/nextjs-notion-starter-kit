@@ -67,8 +67,8 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Component {...pageProps} />
       <BubbleChat 
-        chatflowid="62667800-5444-4293-9619-45abe310c6b1"
-        apiHost="https://flowise.autonomoustech.io"
+        chatflowid="63c16e36-f521-4aff-80ff-78be43455b2d"
+        apiHost="https://flowise.cfy0.abd.dev"
       />
     </>
   );
